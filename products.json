@@ -29,9 +29,25 @@
     {"id":"prod-f7a15301-023","name":"Standard Item 23","category":"books","price":42.96,"stock":148,"rating":2.4}
   ],
   "aggregations": {
+    "books": {
+      "count": 9,
+      "inventoryValue": 298235.79
+    },
+    "electronics": {
+      "count": 3,
+      "inventoryValue": 50102.47
+    },
     "home": {
       "count": 2,
       "inventoryValue": 66637.38
+    },
+    "clothing": {
+      "count": 8,
+      "inventoryValue": 246051.24
+    },
+    "sports": {
+      "count": 1,
+      "inventoryValue": 6784
     }
   }
 }
